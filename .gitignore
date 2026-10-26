@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+artifact/**
+
+artifact/
+artifacts/
+*.csv
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+__pycache__/
+logs/
+.env
+notebook/data.csv
+notebook/*.csv
+notebook/*.pkl
